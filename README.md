@@ -27,7 +27,7 @@ To run this music app locally, you'll need:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/music-app.git
+   git clone https://github.com/code-crasher/Music-App/tree/main
    ```
 
 2. **Navigate to the Project Directory:**
@@ -43,19 +43,17 @@ To run this music app locally, you'll need:
 ### Folder Structure
 
 - `index.html`: The main HTML file containing the structure of the app.
-- `styles/`: Directory containing the CSS files for styling the app.
-- `scripts/`: Directory containing the JavaScript files.
+- `css/`: Directory containing the CSS files for styling the app.
+- `js/`: Directory containing the JavaScript files.
 - `assets/`: Directory containing the music files (`.mp3`), album art images, and other assets.
 
 ### JavaScript Code Overview
 
 The main functionalities of the app are handled in the `scripts/app.js` file. Below is an overview of the key functions:
 
-- **`initializeApp()`**: Loads the first song and prepares the playlist when the app initializes.
+- **`loadSong()`**: Loads the first song and prepares the playlist when the app initializes.
 - **`playSong()` & `pauseSong()`**: Toggles between playing and pausing the current track.
 - **`playNextSong()` & `playPrevSong()`**: Skips to the next or previous track.
-- **`toggleShuffle()`**: Enables or disables the shuffle mode.
-- **`toggleRepeat()`**: Enables or disables the repeat mode.
 - **`updateProgressBar()`**: Updates the progress bar as the song plays.
 - **`setProgressBar()`**: Allows the user to seek within the track by clicking on the progress bar.
 
@@ -65,11 +63,7 @@ The main functionalities of the app are handled in the `scripts/app.js` file. Be
    - Click the play button to start playing the first track in the playlist.
    - Use the next and previous buttons to navigate through the tracks.
 
-2. **Shuffle/Repeat:**
-   - Click the shuffle button to enable or disable shuffle mode.
-   - Click the repeat button to toggle repeat mode.
-
-3. **Progress Bar:**
+2. **Progress Bar:**
    - The progress bar displays the current position in the track.
    - Click on the progress bar to seek to a different part of the track.
 
@@ -90,3 +84,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Thanks to the creators of the music tracks used in this app.
 - Inspired by various online tutorials and resources on web development.
+- Thanks to IcodeThis.com for the mock up used in the development of the App
